@@ -11,16 +11,17 @@ body {
 }
 
 h1 {
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+
     font-family: 'Nerko One', cursive;
     font-size: 3.5rem;
     font-weight: 500;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px gray;
+    
     color: #ff9614;
-    line-height: 100px;
-    vertical-align: middle;
-    text-align: center;
+    text-shadow: 1px 1px gray;
 }
 
 h2 {
@@ -47,6 +48,10 @@ h2 {
     color: #f7972e;
 }
 
+.uppercase-text {
+    text-transform: uppercase;
+}
+
 /** Header */
 
 header {
@@ -58,7 +63,6 @@ header {
 
 .category {
     font-size: 1.1rem;
-    text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 300;
     color: gray;
@@ -68,9 +72,25 @@ header {
 
 .flex.title {
     justify-content: space-between;
+    align-items: center;
 }
 
 .no-mobile-text {
     display: none;
+}
+
+.rating {
+    font-size: 1.2rem;
+}
+
+.rate {
+    display: inline-block;
+
+    background-color: #f7972e;
+    padding: 10px 15px;
+    border-radius: 20px;
+
+    color: white;
+    font-weight: 700;
 }
 
