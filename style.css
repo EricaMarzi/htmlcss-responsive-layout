@@ -42,9 +42,9 @@ ul {
 
 /** Utility */
 
-.container {
+/*.container {
     max-width: 576px;
-}
+} Non serve*/
 
 .padding-main {
     padding: 30px 20px
@@ -172,7 +172,7 @@ header {
 
 }
 
-ul.flex {
+ul.social-list {
     justify-content: space-around;
 }
 
@@ -226,4 +226,35 @@ section.recipe {
 p.paragraph-recipe {
     font-size: 1.2rem;
     line-height: 40px;
+}
+
+/** FOOTER */
+
+.footer-container {
+    background-color: #7c69a4;
+    color: white;
+    text-align: center;
+
+    padding: 20px;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+address {
+    font-style: normal;
+}
+
+ul.widget-list {
+    margin: 20px 0;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.widget a {
+    color:white;
 }
