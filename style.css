@@ -30,6 +30,10 @@ h2 {
     font-weight: 800;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /** Utility */
 
 .container {
@@ -52,6 +56,10 @@ h2 {
     text-transform: uppercase;
 }
 
+.no-mobile-text {
+    display: none;
+}
+
 /** HEADER */
 
 header {
@@ -61,7 +69,7 @@ header {
 
 /** MAIN */
 
-/*? Sezione Titolo e categoria*/
+/*? Sezione Titolo e Categoria*/
 
 .category {
     font-size: 1.1rem;
@@ -75,10 +83,6 @@ header {
 .flex.title {
     justify-content: space-between;
     align-items: center;
-}
-
-.no-mobile-text {
-    display: none;
 }
 
 .rating {
@@ -111,6 +115,7 @@ header {
     border-radius: 0 0 5px 5px;
 }
 
+/*Card top*/
 .top.card.info {
     background-color: #f6f5f9;
 }
@@ -139,6 +144,7 @@ header {
     font-weight: 700;
 }
 
+/*Card bottom*/
 .type {
     padding-top: 20px;
     font-weight: 500;
@@ -151,4 +157,45 @@ header {
 .bottom.card * {
     font-size: 1.1rem;
     line-height: 40px;
+}
+
+
+/*? Sezione Social*/
+
+.social-media {
+    padding: 30px 0;
+
+}
+
+ul.flex {
+    justify-content: space-around;
+}
+
+.social {
+    display: inline-block;
+    background-color: white;
+    /*Li ho fatti tondi perché li odiavo esteticamente altrimenti*/
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.fa-facebook {
+    color: #1a77f3;
+}
+.fa-twitter {
+    color: #009eff;
+}
+.fa-instagram {
+    color: #e46d9a;
+}
+.fa-pinterest {
+    color: #c8232c;
+}
+.fa-youtube {
+    color: #c4302b;
 }
