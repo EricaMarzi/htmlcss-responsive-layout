@@ -62,7 +62,7 @@ ul {
     text-transform: uppercase;
 }
 
-.no-mobile-text {
+.no-mobile-content {
     display: none;
 }
 
@@ -188,6 +188,8 @@ ul.social-list {
     line-height: 50px;
     vertical-align: middle;
     text-align: center;
+
+    box-shadow: 0 5px 10px lightgray;
 }
 
 .fa-facebook {

@@ -11,6 +11,11 @@
         font-size: 1.9rem;
     }
     
+    /** Utility */
+    .no-mobile-content {
+        display: inline;
+    }
+
     /** HEADER*/
     header {
         padding: 0 20px
@@ -18,19 +23,84 @@
 
     /** MAIN*/
     .padding-main {
-        padding: 50px;
+        padding: 30px 40px;
     }
 
     /*? Sezione Titolo e Categoria*/
-    .no-mobile-text {
-        display: inline;
-    }
 
     .rating {
         font-size: 1rem;
     }
 
     /*? Video*/
+    .video {
+        height: 370px;
+    }
+
+    /*? Sezione Info Ricetta*/
+    /*Top card info*/
+    .top.card.info {
+        padding: 10px;
+    }
+
+    .top-info.flex, .bottom-info {
+        padding: 10px 0;
+    }
+
+    .info-recipe .col {
+        font-size: 14px;
+    }
+
+    .kcal {
+        padding: 2px 5px;
+    }
+
+    .more-info {
+        font-size: 1rem;
+    }
+
+    .type {
+        padding-top: 0;
+    }
+
+    /*Bottom card info*/
+    .bottom.card.info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 50px;
+    }
+
+    .bottom.card * {
+        font-size: 14px;
     
-    
+    }
+
+    /*? Sezione Social-media*/
+    .social {
+        border-radius: 20px;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    /*? Sezione Publicity Banner*/
+    .publicity-banner img {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    /*? Sezione Ricetta*/
+    .recipe img {
+        float: left;
+        margin-right: 10px;
+
+        width: 300px;
+    }
+
+    p.paragraph-recipe {
+        font-size: 1.1rem;
+        line-height: 30px;
+
+        margin-top: 20px;
+    }
 }
