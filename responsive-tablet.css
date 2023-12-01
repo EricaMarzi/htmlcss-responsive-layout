@@ -1,0 +1,36 @@
+/*TODO Tablet*/
+
+@media screen and (min-width: 768px){
+    
+    /** Generics*/
+    h1 {
+        text-align: left;
+    }
+    
+    h2 {
+        font-size: 1.9rem;
+    }
+    
+    /** HEADER*/
+    header {
+        padding: 0 20px
+    }
+
+    /** MAIN*/
+    .padding-main {
+        padding: 50px;
+    }
+
+    /*? Sezione Titolo e Categoria*/
+    .no-mobile-text {
+        display: inline;
+    }
+
+    .rating {
+        font-size: 1rem;
+    }
+
+    /*? Video*/
+    
+    
+}
