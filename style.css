@@ -117,6 +117,7 @@ header {
 
 .col {
     background-color: white;
+    padding: 30px;
     box-shadow: 0 5px 10px lightgray;
     border-radius: 0 0 5px 5px;
 }
