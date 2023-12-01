@@ -20,17 +20,18 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
-    <!--Responsive tablet-->
+    <!--Responsive Tablet-->
     <link rel="stylesheet" href="responsive-tablet.css">
+    <!--Responsive Desktop-->
+    <link rel="stylesheet" href="responsive-desktop.css">
 </head>
 
 <body>
+    <header>
+        <h1 class="uppercase-text ">Giallo Booleano</h1>
+    </header>
+
     <div class="container">
-
-        <header>
-            <h1 class="uppercase-text ">Giallo Booleano</h1>
-        </header>
-
         <main class="padding-main">
             <!--Sezione Titolo e Categoria-->
             <section class="title-recipe">
@@ -46,59 +47,60 @@
                 </div>
             </section>
 
-            <!--Sezione Video-->
-            <section class="video-recipe">
-                <div class="video">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JVT900H6s0g?si=XtcYQNRjm0h4FZXz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </section>
+            <div class="desktop-container flex">
+                <!--Sezione Video-->
+                <section class="video-recipe">
+                    <div class="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JVT900H6s0g?si=XtcYQNRjm0h4FZXz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </section>
 
-            <!--Sezione Info Ricetta-->
-            <section class="info-recipe">
-                <div class="col">
+                <!--Sezione Info Ricetta-->
+                <section class="info-recipe">
+                    <div class="col">
 
-                    <div class="top card info">
-                        <div class="top-info flex">
-                            <div class="kcal">544 Kcal</div>
-                            <div class="more-info yellow-text">+ info</div>
+                        <div class="top card info">
+                            <div class="top-info flex">
+                                <div class="kcal">544 Kcal</div>
+                                <div class="more-info yellow-text">+ info</div>
+                            </div>
+                            <div class="bottom-info">
+                                <div class="type">
+                                    <i class="fa-solid fa-carrot"></i>
+                                    <span class="uppercase-text">Vegetariano</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="bottom-info">
-                            <div class="type">
-                                <i class="fa-solid fa-carrot"></i>
-                                <span class="uppercase-text">Vegetariano</span>
+
+                        <div class="bottom card info">
+                            <div>
+                                <i class="fa-solid fa-blender yellow-text"></i>
+                                <span>Difficoltà: <b>Facile</b></span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-clock yellow-text"></i>
+                                <span>Tempo: <b>40 min</b></span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-chart-pie yellow-text"></i>
+                                <span>Porzione per: <b>8 persone</b></span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-euro-sign yellow-text"></i>
+                                <span>Costo: <b>contenuto</b></span>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-thumbtack yellow-text"></i>
+                                <span><b>Note</b>: +2 ore di riposo in frigo</span>
                             </div>
                         </div>
                     </div>
-
-                    <div class="bottom card info">
-                        <div>
-                            <i class="fa-solid fa-blender yellow-text"></i>
-                            <span>Difficoltà: <b>Facile</b></span>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-clock yellow-text"></i>
-                            <span>Tempo: <b>40 min</b></span>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-chart-pie yellow-text"></i>
-                            <span>Porzione per: <b>8 persone</b></span>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-euro-sign yellow-text"></i>
-                            <span>Costo: <b>contenuto</b></span>
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-thumbtack yellow-text"></i>
-                            <span><b>Note</b>: +2 ore di riposo in frigo</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+                </section>
+            </div>
             <!--Sezione Social-media-->
             <section class="social-media">
                 <ul class="social-list flex">
@@ -106,7 +108,6 @@
                         <a href="#">
                             <div class="social facebook">
                                 <i class="fa-brands fa-facebook"></i>
-                                <!--<span class="no-mobile-content">Facebook</span>-->
                             </div>
                         </a>
                     </li>
@@ -114,7 +115,6 @@
                         <a href="#">
                             <div class="social twitter">
                                 <i class="fa-brands fa-twitter"></i>
-                                <!--<span class="no-mobile-content">Twitter</span>-->
                             </div>
                         </a>
                     </li> 
@@ -122,7 +122,6 @@
                         <a href="#">
                             <div class="social instagram">
                                 <i class="fa-brands fa-instagram"></i>
-                                <!--<span class="no-mobile-content">Instagram</span>-->
                             </div>
                         </a>
                     </li>  
@@ -130,7 +129,6 @@
                         <a href="#">
                             <div class="social pinterest">
                                 <i class="fa-brands fa-pinterest"></i>
-                                <!--<span class="no-mobile-content">Pinterest</span>-->
                             </div>
                         </a>
                     </li>
@@ -138,7 +136,6 @@
                         <a href="#">
                             <div class="social youtube">
                                 <i class="fa-brands fa-youtube"></i>
-                                <!--<span class="no-mobile-content">YouTube</span>-->
                             </div>
                         </a>
                     </li>
@@ -157,30 +154,30 @@
                 <img src="img/tiramisu.jpg" alt="Tiramisù">
                 <p class="paragraph-recipe">
                     Il <b>Tiramisù</b> è uno dei capisaldi della cucina italiana, uno dei dolci al cucchiaio più amati e realizzati in tutto il mondo. Le origini del tiramisù sono molto incerte e diverse città ne rivendicano la paternità. Ciò di cui siamo certi è che dal 1980 in poi, anno in cui questo termine venne inserito nel vocabolario italiano, il tiramisù ha avuto un successo enorme! Ad oggi è tra le parole italiane più conosciute all'estero. Ma cosa rende il tiramisù così speciale? Sicuramente amiamo il fatto che sia molto semplice da preparare, la sua crema al mascarpone è irresistibile, così gustosa e vellutata, intervellata da strati di savoiardi inzuppati nel caffè! C'è chi ama aromatizzare la bagna con il <b>Marsala</b> e chi invece preferisce utilizzare altri liquori, ma noi lo amiamo così, in purezza e vi proponiamo la versione più classica, perfetta per ogni occasione!
-                    <br><br>
                     Anche se non abbiamo scoperto chi sia per certo l'inventore del tiramisù nella versione attuale, individuato da alcuni in Ado Campeol (il proprietario del conosciuto e storico locale "Il Becchiere" di Treviso), condividiamo con voi la nostra ricetta per <b>uno tra i più buoni tiramisù</b> che abbiate mai assaggiato! Preparatelo anche voi e fateci sapere!
                 </p>
             </section>
         </main>
 
-        <footer class="footer-container">
-            <div>
-                <h5>&copy; 2021 Giallo Booleano S.p.a.</h5>
-                <address>
-                    Via Tal dei tali, 10 - 88046 Lamezia Terme - VAT 43940293020
-                </address>
-            </div>
-            <div class="widget">
-                <ul class="widget-list flex">
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Term of use</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Cookie Policy</a></li>
-                    <li><a href="#">Disclaimer</a></li>
-                </ul>
-            </div>
-        </footer>
-
+        
     </div>
+
+    <footer class="footer-container">
+        <div class="footer-left">
+            <h5>&copy; 2021 Giallo Booleano S.p.a.</h5>
+            <address>
+                Via Tal dei tali, 10 - 88046 Lamezia Terme - VAT 43940293020
+            </address>
+        </div>
+        <div class="footer-right widget">
+            <ul class="widget-list flex">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Term of use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Disclaimer</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

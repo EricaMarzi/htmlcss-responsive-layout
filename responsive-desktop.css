@@ -1,2 +1,98 @@
-/*! Responsive */
-/*TODO Desktop sopra i 992*/
+/*TODO Desktop*/
+
+@media screen and (min-width: 992px){
+
+    /** Generics*/
+    h2 {
+        font-size: 3.3rem;
+    }
+
+    /** MAIN*/
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .padding-main {
+        padding-top: 50px;
+    }
+    
+    /*? Sezione Video + Info Ricetta*/
+    .video {
+        height: 520px;
+        width: 950px;
+    }
+
+    .info-recipe {
+        width: 30%;
+    }
+
+    .col {
+        height: 520px;
+        margin-top: 20px;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .bottom.card.info {
+        display: block;
+        padding: 30px 0;
+    }
+
+    .bottom.card * {
+        font-size: 1.1rem;
+    }
+
+    /*? Sezione Social-media*/
+    .social {
+        width: 220px;
+    }
+
+    .fa-facebook::after {
+        content: "FACEBOOK";
+        color: black;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .fa-twitter::after {
+        content: "TWITTER";
+        color: black;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .fa-instagram::after {
+        content: "INSTAGRAM";
+        color: black;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .fa-pinterest::after {
+        content: "PINTEREST";
+        color: black;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .fa-youtube::after {
+        content: "YOUTUBE";
+        color: black;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*? Sezione Ricetta*/
+    p.paragraph-recipe {
+        font-size: 1.3rem;
+        line-height: 40px;
+
+        margin-top: 20px;
+    }
+
+    /** FOOTER*/
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-left {
+        text-align: left;
+    }
+}
