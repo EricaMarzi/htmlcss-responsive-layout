@@ -20,7 +20,7 @@ h1 {
     font-weight: 500;
     letter-spacing: 2px;
 
-    color: #ff9614;
+    color: #f7972e;
     text-shadow: 1px 1px gray;
 }
 
@@ -98,6 +98,48 @@ header {
 
 /*? Sezione Video*/
 
-.video-container {
+.video {
+    height: 290px;
     margin-top: 20px;
+}
+
+/*? Sezione Info Ricetta*/
+
+.col {
+    background-color: white;
+
+    height: 400px;
+}
+
+.card.info {
+    background-color: #f6f5f9;
+}
+
+.top.card.info {
+    padding: 20px;
+}
+
+.top-info.flex{
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.kcal {
+    background-color: #7c69a4;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+}
+
+.more-info {
+    color: #f7972e;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.type {
+    padding-top: 20px;
+    font-weight: 500;
 }
