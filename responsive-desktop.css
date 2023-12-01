@@ -18,6 +18,10 @@
     }
     
     /*? Sezione Video + Info Ricetta*/
+    .desktop-container {
+        display: flex;
+    }
+
     .video {
         height: 520px;
         width: 950px;

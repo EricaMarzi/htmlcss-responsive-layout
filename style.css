@@ -41,6 +41,9 @@ ul {
 }
 
 /** Utility */
+.container {
+    width: 100%;
+}
 
 /*.container {
     max-width: 576px;
