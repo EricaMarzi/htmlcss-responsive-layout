@@ -107,11 +107,11 @@ header {
 
 .col {
     background-color: white;
-
-    height: 400px;
+    box-shadow: 0 5px 10px lightgray;
+    border-radius: 0 0 5px 5px;
 }
 
-.card.info {
+.top.card.info {
     background-color: #f6f5f9;
 }
 
@@ -142,4 +142,13 @@ header {
 .type {
     padding-top: 20px;
     font-weight: 500;
+}
+
+.bottom.card {
+    padding: 20px 0;
+}
+
+.bottom.card * {
+    font-size: 1.1rem;
+    line-height: 40px;
 }
