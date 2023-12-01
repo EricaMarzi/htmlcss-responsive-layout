@@ -30,6 +30,12 @@ h2 {
     font-weight: 800;
 }
 
+h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
 ul {
     list-style-type: none;
 }
@@ -139,7 +145,6 @@ header {
 }
 
 .more-info {
-    color: #f7972e;
     font-size: 1.3rem;
     font-weight: 700;
 }
@@ -160,7 +165,7 @@ header {
 }
 
 
-/*? Sezione Social*/
+/*? Sezione Social-media*/
 
 .social-media {
     padding: 30px 0;
@@ -198,4 +203,28 @@ ul.flex {
 }
 .fa-youtube {
     color: #c4302b;
+}
+
+/*? Sezione Ricetta*/
+
+section.recipe {
+    padding-top: 20px;
+}
+
+.separator {
+    margin-top: 10px;
+    width: 100px;
+    border: 1px solid #f7972e;
+}
+
+.recipe img {
+    display: block;
+    width: 350px;
+    margin: 20px auto;
+}
+
+p.paragraph-recipe {
+    font-size: 1.2rem;
+    line-height: 30px;
+    
 }
